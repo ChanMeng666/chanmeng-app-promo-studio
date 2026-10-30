@@ -1,4 +1,4 @@
-# app-promo-studio
+# chanmeng-app-promo-studio
 
 A Claude Code **plugin** that generates cross-platform app **promotional images** from your own screenshots + a few headlines + brand colors — at exact platform sizes, in PNG / JPG / WebP / AVIF and **true vector SVG**.
 
@@ -39,24 +39,24 @@ Requires **Node 18+** and **Google Chrome** installed (Playwright uses it via `c
 
 ### Use immediately (dev)
 ```bash
-claude --plugin-dir /path/to/app-promo-studio
+claude --plugin-dir /path/to/chanmeng-app-promo-studio
 ```
-Then in Claude Code: `/app-promo-studio:promo` — or just ask, e.g. *"make App Store and Play screenshots for my app."*
+Then in Claude Code: `/chanmeng-app-promo-studio:promo` — or just ask, e.g. *"make App Store and Play screenshots for my app."*
 
 ### Permanent personal install (every project)
 ```text
-/plugin marketplace add /path/to/app-promo-studio
-/plugin install app-promo-studio@app-promo-studio-marketplace
+/plugin marketplace add /path/to/chanmeng-app-promo-studio
+/plugin install chanmeng-app-promo-studio@chanmeng-app-promo-studio-marketplace
 ```
 
-On first use the skill runs `npm install` inside `skills/app-promo-images/scripts/` to fetch `playwright`, `sharp`, `@resvg/resvg-js`. Fonts (Inter, Fraunces, Baloo 2) are bundled.
+On first use the skill runs `npm install` inside `skills/chanmeng-app-promo-images/scripts/` to fetch `playwright`, `sharp`, `@resvg/resvg-js`. Fonts (Inter, Fraunces, Baloo 2) are bundled.
 
 ## Usage
 
 Ask Claude (it gathers inputs, writes the config, runs the scripts), or drive the scripts directly:
 
 ```bash
-cd skills/app-promo-images/scripts
+cd skills/chanmeng-app-promo-images/scripts
 npm install                                   # first time
 node render.mjs my-app.config.json            # PNG/JPG/WebP/AVIF
 node render.mjs my-app.config.json --dry      # preview job list
@@ -78,10 +78,10 @@ Minimal config:
 }
 ```
 
-See `skills/app-promo-images/scripts/promo.config.example.json` and the docs:
-- `skills/app-promo-images/references/platform-specs.md` — every size & rule
-- `skills/app-promo-images/references/workflow.md` — full config schema + examples
-- `skills/app-promo-images/references/design-recipes.md` — themes, layouts, copywriting
+See `skills/chanmeng-app-promo-images/scripts/promo.config.example.json` and the docs:
+- `skills/chanmeng-app-promo-images/references/platform-specs.md` — every size & rule
+- `skills/chanmeng-app-promo-images/references/workflow.md` — full config schema + examples
+- `skills/chanmeng-app-promo-images/references/design-recipes.md` — themes, layouts, copywriting
 
 ## Targets
 

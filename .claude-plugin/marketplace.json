@@ -1,12 +1,12 @@
 {
-  "name": "app-promo-studio-marketplace",
+  "name": "chanmeng-app-promo-studio-marketplace",
   "owner": {
     "name": "chanmeng",
     "email": "chanmeng6666@gmail.com"
   },
   "plugins": [
     {
-      "name": "app-promo-studio",
+      "name": "chanmeng-app-promo-studio",
       "source": "./",
       "description": "Cross-platform app promotional image generator (phone / iPad / desktop / web + social). Exact platform sizes, PNG/JPG/WebP/AVIF + SVG vector output."
     }

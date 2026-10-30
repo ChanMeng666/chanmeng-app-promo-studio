@@ -1,9 +1,9 @@
 {
-  "name": "app-promo-studio-scripts",
+  "name": "chanmeng-app-promo-studio-scripts",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Render scripts for the app-promo-studio plugin (HTML->raster via Playwright, SVG->vector+raster via resvg).",
+  "description": "Render scripts for the chanmeng-app-promo-studio plugin (HTML->raster via Playwright, SVG->vector+raster via resvg).",
   "bin": {
     "promo-render": "./render.mjs",
     "promo-render-svg": "./render-svg.mjs"

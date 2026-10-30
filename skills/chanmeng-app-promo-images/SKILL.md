@@ -1,5 +1,5 @@
 ---
-name: app-promo-images
+name: chanmeng-app-promo-images
 description: Generate cross-platform app promotional / marketing images (App Store & Google Play screenshots, iPad, Mac, desktop window, web landing hero, and social/Open-Graph cards) from the user's own app screenshots plus a few headlines and brand colors. Use when the user wants to create app store screenshots, promo graphics, marketing images, launch visuals, OG/social cards, or "宣传图" for an app — and wants exact platform sizes exported as PNG/JPG/WebP/AVIF and/or true vector SVG. Renders designed templates with a real browser (Playwright) and rasterizes vectors with resvg.
 ---
 
