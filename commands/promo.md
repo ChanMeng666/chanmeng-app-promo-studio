@@ -4,11 +4,11 @@ description: Generate cross-platform app promotional images (App Store / Google 
 
 The user wants to create app promotional / marketing images.
 
-Invoke the **chanmeng-app-promo-images** skill (in this same plugin) and follow it end-to-end.
+Invoke the **chanmeng-app-promo-studio** skill (in this same plugin) and follow it end-to-end.
 
 User request / arguments: $ARGUMENTS
 
 Steps:
-1. Read the skill at `skills/chanmeng-app-promo-images/SKILL.md` and follow its workflow exactly.
+1. Read the skill at `skills/chanmeng-app-promo-studio/SKILL.md` and follow its workflow exactly.
 2. Gather the required inputs (app name, headlines, screenshot file paths, brand color/theme, target platforms, output formats, output dir) — ask only for what is missing from `$ARGUMENTS`.
 3. Write a `promo.config.json`, run the render scripts, then report the generated files.
