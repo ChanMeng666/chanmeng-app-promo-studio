@@ -1,11 +1,14 @@
 {
   "name": "chanmeng-app-promo-studio",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate cross-platform app promotional images (App Store, Google Play, iPad, Mac, web hero & social/OG cards) from your screenshots + headlines. Outputs exact platform sizes in PNG/JPG/WebP/AVIF and true vector SVG.",
   "author": {
     "name": "chanmeng",
     "email": "chanmeng6666@gmail.com"
   },
+  "homepage": "https://github.com/ChanMeng666/chanmeng-app-promo-studio",
+  "repository": "https://github.com/ChanMeng666/chanmeng-app-promo-studio",
+  "license": "MIT",
   "keywords": [
     "app-store",
     "screenshots",
@@ -13,6 +16,5 @@
     "marketing",
     "svg",
     "playwright"
-  ],
-  "license": "MIT"
+  ]
 }

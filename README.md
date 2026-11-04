@@ -46,17 +46,17 @@ Then in Claude Code: `/chanmeng-app-promo-studio:promo` — or just ask, e.g. *"
 ### Permanent personal install (every project)
 ```text
 /plugin marketplace add /path/to/chanmeng-app-promo-studio
-/plugin install chanmeng-app-promo-studio@chanmeng-app-promo-studio-marketplace
+/plugin install chanmeng-app-promo-studio@chanmeng-app-promo-studio
 ```
 
-On first use the skill runs `npm install` inside `skills/chanmeng-app-promo-images/scripts/` to fetch `playwright`, `sharp`, `@resvg/resvg-js`. Fonts (Inter, Fraunces, Baloo 2) are bundled.
+On first use the skill runs `npm install` inside `skills/chanmeng-app-promo-studio/scripts/` to fetch `playwright`, `sharp`, `@resvg/resvg-js`. Fonts (Inter, Fraunces, Baloo 2) are bundled.
 
 ## Usage
 
 Ask Claude (it gathers inputs, writes the config, runs the scripts), or drive the scripts directly:
 
 ```bash
-cd skills/chanmeng-app-promo-images/scripts
+cd skills/chanmeng-app-promo-studio/scripts
 npm install                                   # first time
 node render.mjs my-app.config.json            # PNG/JPG/WebP/AVIF
 node render.mjs my-app.config.json --dry      # preview job list
@@ -78,10 +78,10 @@ Minimal config:
 }
 ```
 
-See `skills/chanmeng-app-promo-images/scripts/promo.config.example.json` and the docs:
-- `skills/chanmeng-app-promo-images/references/platform-specs.md` — every size & rule
-- `skills/chanmeng-app-promo-images/references/workflow.md` — full config schema + examples
-- `skills/chanmeng-app-promo-images/references/design-recipes.md` — themes, layouts, copywriting
+See `skills/chanmeng-app-promo-studio/scripts/promo.config.example.json` and the docs:
+- `skills/chanmeng-app-promo-studio/references/platform-specs.md` — every size & rule
+- `skills/chanmeng-app-promo-studio/references/workflow.md` — full config schema + examples
+- `skills/chanmeng-app-promo-studio/references/design-recipes.md` — themes, layouts, copywriting
 
 ## Targets
 
