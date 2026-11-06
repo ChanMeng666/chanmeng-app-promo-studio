@@ -37,6 +37,14 @@ Device frames (phone, tablet, Mac window, browser window) are drawn in pure CSS/
 
 Requires **Node 18+** and **Google Chrome** installed (Playwright uses it via `channel:"chrome"` — no Chromium download).
 
+### Any agent, with the skills CLI
+
+Installs into Claude Code, Cursor, Codex, GitHub Copilot, Gemini CLI and the other agents the CLI supports. Listed on [skills.sh](https://skills.sh/chanmeng666).
+
+```bash
+npx skills add ChanMeng666/chanmeng-app-promo-studio
+```
+
 ### Use immediately (dev)
 ```bash
 claude --plugin-dir /path/to/chanmeng-app-promo-studio
